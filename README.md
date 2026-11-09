@@ -14,8 +14,8 @@ Aplikasi desktop sederhana berbasis JavaFX untuk mencatat dan mengelola katalog 
 ## Cara Menjalankan
 
 1. Clone repositori:
-   `git clone https://github.com/username/DaftarProdukToko.git`
-   `cd DaftarProdukToko`
+   `git clone https://github.com/riofadillah/ProdukToko`
+   `cd ProdukToko`
 2. Jalankan via Maven:
    `mvn clean javafx:run`
 3. Atau jalankan melalui IDE (NetBeans / IntelliJ IDEA / VS Code):
