@@ -1,0 +1,176 @@
+
+.root {
+    -fx-font-family: "Segoe UI", -apple-system, sans-serif;
+    -fx-font-size: 13px;
+    
+    -fx-background-color: linear-gradient(to bottom right, #fdf4ff, #ede9fe, #e0f2fe);
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #581c87; 
+    -fx-effect: dropshadow(gaussian, rgba(147, 51, 234, 0.2), 6, 0, 0, 1);
+}
+
+.subtitle {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #6b21a8;
+}
+
+.muted {
+    -fx-font-size: 12px;
+    -fx-text-fill: #7c3aed;
+    -fx-font-weight: 500;
+}
+
+.error {
+    -fx-text-fill: #e11d48;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-border-color: #c084fc; 
+    -fx-border-radius: 10;
+    -fx-border-width: 1.5;
+    -fx-padding: 9 14;
+    -fx-text-fill: #3b0764;
+    -fx-prompt-text-fill: #a855f7;
+}
+
+.text-field:focused {
+    -fx-border-color: #ec4899; 
+    -fx-effect: dropshadow(gaussian, rgba(236, 72, 153, 0.35), 8, 0, 0, 0);
+}
+
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-border-color: #818cf8; 
+    -fx-border-radius: 10;
+    -fx-border-width: 1.5;
+    -fx-padding: 5 10;
+    -fx-cursor: hand;
+}
+
+.combo-box:hover {
+    -fx-border-color: #6366f1;
+}
+
+.combo-box:focused {
+    -fx-border-color: #ec4899;
+    -fx-effect: dropshadow(gaussian, rgba(236, 72, 153, 0.35), 8, 0, 0, 0);
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-border-color: #c084fc;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(147, 51, 234, 0.2), 12, 0, 0, 4);
+    -fx-padding: 4;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #f3e8ff;
+    -fx-text-fill: #6b21a8;
+    -fx-background-radius: 6;
+}
+
+
+.button {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 10;
+    -fx-border-width: 1.2;
+    -fx-padding: 8 16;
+    -fx-text-fill: #475569;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 4, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #f1f5f9;
+    -fx-text-fill: #0f172a;
+}
+
+.button-primary {
+    -fx-background-color: linear-gradient(to right, #f97316, #fbbf24);
+    -fx-border-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: 800;
+    -fx-effect: dropshadow(gaussian, rgba(249, 115, 22, 0.4), 10, 0, 0, 3);
+}
+
+.button-primary:hover {
+    -fx-background-color: linear-gradient(to right, #ea580c, #f59e0b);
+    -fx-effect: dropshadow(gaussian, rgba(234, 88, 12, 0.55), 12, 0, 0, 4);
+}
+
+.button-primary:pressed {
+    -fx-background-color: #c2410c;
+}
+
+.check-box {
+    -fx-text-fill: #4c1d95;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.check-box .box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #a855f7;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #a855f7;
+    -fx-border-color: #9333ea;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #ffffff;
+}
+
+.card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 16;
+    -fx-border-color: #f472b6;
+    -fx-border-radius: 16;
+    -fx-border-width: 2;
+    -fx-padding: 24;
+    -fx-effect: dropshadow(gaussian, rgba(244, 114, 182, 0.25), 16, 0, 0, 6);
+}
+
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(147, 51, 234, 0.3), 14, 0, 0, 5);
+}
+
+.tile-pane > .button {
+    -fx-pref-width: 120px;
+    -fx-alignment: center;
+}
+ 
+.card-produk {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 12;
+    -fx-border-width: 1.2;
+    -fx-effect: dropshadow(gaussian, rgba(15, 23, 42, 0.06), 8, 0, 0, 3);
+}
+
+.card-produk:hover {
+    -fx-border-color: #c084fc;
+    -fx-effect: dropshadow(gaussian, rgba(168, 85, 247, 0.25), 12, 0, 0, 5);
+}
+
+.scroll-pane, .scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
