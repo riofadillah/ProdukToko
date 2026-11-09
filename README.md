@@ -8,7 +8,7 @@ Aplikasi desktop sederhana berbasis JavaFX untuk mencatat dan mengelola katalog 
 
 | Katalog Produk | Form Tambah Produk | Detail Produk |
 | :---: | :---: | :---: |
-| ![Katalog Produk](Screenshots/daftar.png) | ![Form Produk](Screenshots/form.png) | ![Detail Produk](Screenshots/detail.png) |
+| ![Katalog Produk](Screenshots/Daftar.png) | ![Form Produk](Screenshots/Form.png) | ![Detail Produk](Screenshots/Detail.png) |
 
 ---
 
