@@ -1,8 +1,8 @@
 # Katalog Produk Toko
 
-Aplikasi desktop sederhana berbasis JavaFX untuk mencatat dan mengelola katalog produk toko (makanan dan minuman). Proyek ini dibuat sebagai latihan implementasi konsep Object-Oriented Programming (OOP) dan perancangan antarmuka GUI menggunakan Maven.
+Aplikasi desktop sederhana berbasis JavaFX untuk mencatat dan mengelola katalog produk toko (makanan dan minuman)
 
----
+
 
 ## Screenshots
 
@@ -10,7 +10,7 @@ Aplikasi desktop sederhana berbasis JavaFX untuk mencatat dan mengelola katalog 
 | :---: | :---: | :---: |
 | ![Katalog Produk](Screenshots/Daftar.png) | ![Form Produk](Screenshots/Form.png) | ![Detail Produk](Screenshots/Detail.png) |
 
----
+
 
 ## Fitur
 
