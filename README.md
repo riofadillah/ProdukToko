@@ -11,11 +11,14 @@ Aplikasi desktop sederhana berbasis JavaFX untuk mencatat dan mengelola katalog 
 | ![Katalog Produk](Screenshots/Daftar.png) | ![Form Produk](Screenshots/Form.png) | ![Detail Produk](Screenshots/Detail.png) |
 
 
+## Cara Menjalankan
 
-## Fitur
-
-* **Katalog Produk (TilePane):** Menampilkan daftar produk dalam bentuk kartu (grid) yang memuat foto, nama produk, kategori, dan harga.
-* **Filter & Pencarian:** Menyaring produk berdasarkan kategori (Makanan/Minuman) serta pencarian berdasarkan nama produk.
-* **Form Input & Pemilihan Gambar:** Form untuk menambahkan produk baru dan memilih file gambar lokal (`.png`, `.jpg`, `.jpeg`) menggunakan `FileChooser`.
-* **Halaman Detail:** Menampilkan informasi lengkap produk beserta tampilan gambar berukuran besar.
-
+1. Clone repositori:
+   `git clone https://github.com/username/DaftarProdukToko.git`
+   `cd DaftarProdukToko`
+2. Jalankan via Maven:
+   `mvn clean javafx:run`
+3. Atau jalankan melalui IDE (NetBeans / IntelliJ IDEA / VS Code):
+   * Buka proyek sebagai Maven Project.
+   * Lakukan Clean and Build.
+   * Jalankan file utama: `src/main/java/kelas/MainApp.java`.
