@@ -18,4 +18,4 @@ Aplikasi desktop sederhana berbasis JavaFX untuk mencatat dan mengelola katalog 
 * **Filter & Pencarian:** Menyaring produk berdasarkan kategori (Makanan/Minuman) serta pencarian berdasarkan nama produk.
 * **Form Input & Pemilihan Gambar:** Form untuk menambahkan produk baru dan memilih file gambar lokal (`.png`, `.jpg`, `.jpeg`) menggunakan `FileChooser`.
 * **Halaman Detail:** Menampilkan informasi lengkap produk beserta tampilan gambar berukuran besar.
-* **Penyimpanan In-Memory:** Menggunakan `ObservableList` untuk menyimpan data produk selama aplikasi berjalan.
+
